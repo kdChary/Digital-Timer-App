@@ -1,1 +1,133 @@
-/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: 'Arial, Helvetica, sans-serif' 'Roboto';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.title {
+  margin-top: 56px;
+  color: #1e293b;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.app-details-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.timer-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  /* border: solid 2px black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 29px;
+}
+.timer {
+  width: 89px;
+  height: 89px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 5px 3px;
+  margin-left: 35px;
+}
+.timer-count {
+  /* font-size: 11px; */
+  /* font-weight: 600; */
+  color: #00d9f5;
+  margin-bottom: 0;
+}
+.timer-state {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 0;
+}
+
+.timer-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 17px;
+}
+.timer-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.controls-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  outline: none;
+  cursor: pointer;
+}
+.control-icon {
+  width: 19px;
+  height: 19px;
+  margin-right: 2px;
+}
+
+.limit-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.limit-caption {
+  font-size: 9px;
+  color: #1e293b;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.limit-options {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 0;
+}
+.limit-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 700;
+  color: #0f172a;
+  outline: none;
+  cursor: pointer;
+}
+.limit-count {
+  border: none;
+  border-radius: 4px;
+  background-color: #00d9f5;
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 5px 9px;
+}
