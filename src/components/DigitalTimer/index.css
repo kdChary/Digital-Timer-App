@@ -95,7 +95,6 @@
   .timer {
     width: 33%;
     height: 33%;
-    /* padding: 19px 11px; */
   }
   .timer-count {
     font-size: 23px;
@@ -218,7 +217,6 @@
 .limit-options {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   margin-top: 0;
 }
 .limit-button {
