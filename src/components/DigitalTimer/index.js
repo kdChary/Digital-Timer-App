@@ -121,7 +121,7 @@ class DigitalTimer extends Component {
         >
           <img
             src="https://assets.ccbp.in/frontend/react-js/reset-icon-img.png"
-            alt=""
+            alt="reset icon"
             className="control-icon"
           />
           Reset
