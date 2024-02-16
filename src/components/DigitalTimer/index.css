@@ -236,7 +236,7 @@
 .limit-count {
   border: none;
   border-radius: 4px;
-  background-color: #00d9f5;
+  background-image: linear-gradient(to right, #00f4a8, #00dbef);
   text-align: center;
   color: #1e293b;
   font-weight: 700;
